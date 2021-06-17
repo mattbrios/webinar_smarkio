@@ -1,0 +1,10 @@
+.bold-text {
+  font-weight: bold !important;
+}
+.upper {
+  text-transform: uppercase !important;
+}
+
+.white-text {
+  color: var(--white) !important;
+}

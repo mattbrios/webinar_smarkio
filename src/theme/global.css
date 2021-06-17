@@ -1,0 +1,26 @@
+@import './text.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+:root {
+  --white:#fff;
+  --background: #F2F3F5;
+  --text: #455A64;
+  --blue-dark: #37474F;
+  --footer: #263238;
+  --red: #f44336;
+}
+
+body {
+  background: var(--blue-dark);
+  color: var(--text);
+}
+
+.MuiOutlinedInput-input {
+  background-color: var(--white) !important;
+}
