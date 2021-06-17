@@ -1,0 +1,7 @@
+POST  https://api-sa.smark.io/v1/1d3e7dd889b4c633dd8ade8c3feccf68290a3462/lead HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+lead[campaign_external_id]=community
+&lead[first_name]=Isaías do Valle
+&lead[email]=isaias.valle@smarkio.com.br
+&extra[empresa]=smarkio

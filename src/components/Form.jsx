@@ -39,8 +39,14 @@ const Form = () => {
           "lead[email]" : formValues.mail,
           "extra[empresa]" : formValues.company
         }
+
+        const instance = axios.create({
+          baseURL: 'https://api-sa.smark.io/v1/1d3e7dd889b4c633dd8ade8c3feccf68290a3462',
+          timeout: 1000,
+          headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+        });
         
-        axios.post(url, data).then(function (response) {
+        instance.post('/lead', data).then(function (response) {
           console.log(response);
         })
         .catch(function (error) {
