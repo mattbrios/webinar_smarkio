@@ -32,7 +32,7 @@ const Form = () => {
       console.log("FORM VALUES", formValues);
 
       try {
-        const url = process.env.REACT_APP_API_URL || "https://api-sa.smark.io/v1/1d3e7dd889b4c633dd8ade8c3feccf68290a3462/lead";
+        // const url = process.env.REACT_APP_API_URL || "https://api-sa.smark.io/v1/1d3e7dd889b4c633dd8ade8c3feccf68290a3462/lead";
         let data ={
           "lead[campaign_external_id]" : "community",
           "lead[first_name]" : formValues.name,
