@@ -4,20 +4,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Rubik", sans-serif;
 }
 
 :root {
   --white:#fff;
-  --background: #F2F3F5;
+  --bg: linear-gradient(125deg, rgba(255,255,255,1) 0%, rgba(228,241,251,1) 100%);
+  --dark-bg: #263238;
   --text: #455A64;
-  --blue-dark: #37474F;
-  --footer: #263238;
+  --paragraph: #607D8B;
+  --header: #eef4fb;
   --red: #f44336;
+  --blue: #0074ff;
+  --dark-blue: #004b76;
+  --light-blue: #60b1dc;
+  --date-blue: #0e6d99;
+  --date-bg: #cee6f7;
+  --black: #2a2d2d;
+  --green: #26A69A;
 }
 
 body {
-  background: var(--blue-dark);
+  background: var(--white);
   color: var(--text);
 }
 

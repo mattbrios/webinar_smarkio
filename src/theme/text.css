@@ -4,7 +4,54 @@
 .upper {
   text-transform: uppercase !important;
 }
+.italic {
+  font-style: italic !important;
+}
+.lighter {
+  font-weight: 300 !important;
+}
 
 .white-text {
   color: var(--white) !important;
+}
+.black-text {
+  color: var(--black) !important;
+}
+.dateblue-text {
+  color: var(--date-blue) !important;
+}
+.lightblue-text {
+  color: var(--light-blue) !important;
+}
+.lighterblue-text {
+  color: var(--date-bg) !important;
+}
+.green-text {
+  color: var(--green) !important;
+}
+.paragraph {
+  color: var(--paragraph) !important;
+}
+
+.min-line {
+  line-height: 1.2 !important;
+}
+.rubik-medium {
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.altuwebinar {
+  font-family: 'Poppins', sans-serif !important;
+  text-transform: uppercase !important;
+  color: var(--dark-blue) !important;
+  font-weight: 700 !important;
+}
+
+.altuwebinar span {
+  font-family: 'Rubik', sans-serif !important;
+  color: var(--blue) !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  font-size: inherit !important;
 }

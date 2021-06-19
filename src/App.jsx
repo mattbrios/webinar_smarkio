@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
+import Privacy from "./pages/Privacy";
 import Success from "./pages/Success";
 
 function App() {
@@ -15,8 +16,11 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route exact path='/sucesso'>
+        <Route path='/sucesso'>
           <Success />
+        </Route>
+        <Route path='/politica-de-privacidade'>
+          <Privacy />
         </Route>
       </Switch>
     </Router>
