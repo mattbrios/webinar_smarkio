@@ -15,9 +15,12 @@ const PolicyContainer = styled.div`
 `;
 
 const Privacy = () => {
+
+  window.scroll(0,0);
+
   return (
     <>
-      <Header />
+      <Header back />
       <PolicyContainer>
         <Container>
           <Typography component="h2" variant="h4" className="blue-text bold-text" gutterBottom>

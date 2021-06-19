@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Box, Button, Checkbox, FormControlLabel, Grid, TextField, Typography } from '@material-ui/core';
 import { Controller, useForm } from 'react-hook-form';
 import styled from 'styled-components';
-import axios from 'axios';
-import ApiService from '../helpers/ApiService';
+// import axios from 'axios';
+// import ApiService from '../helpers/ApiService';
 
 const FormContainer = styled.div`
   padding: 2rem;
@@ -16,7 +16,7 @@ const FormContainer = styled.div`
 
 const Form = () => {
 
-  const { handleSubmit, control, setValue } = useForm();
+  const { handleSubmit, control } = useForm();
 
   const [termsChecked, setTermsChecked] = useState(false);
   const [showValidateTerms, setShowValidateTerms] = useState(false);
